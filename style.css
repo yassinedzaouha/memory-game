@@ -89,3 +89,45 @@ body {
 .boxMatch:after {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 40px;
+    }
+
+    .container h2 {
+        font-size: 1.5em;
+    }
+
+    .item {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+    }
+
+    .container .game {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container h2 {
+        font-size: 1.2em;
+    }
+
+    .item {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+
+    .container .game {
+        width: 240px;
+        height: auto;
+    }
+}
