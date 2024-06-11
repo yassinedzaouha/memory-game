@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #0a3c2f;
+    background: #081661;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background: #0d614b;
+    background: #0e26af;
     padding: 40px 60px;
 }
 
@@ -38,7 +38,7 @@ body {
     border: none;
     font-size: 20px;
     text-transform: uppercase;
-    color: #0d614b;
+    color: #2a47e6;
     font-weight: 300;
     cursor: pointer;
 }
@@ -79,10 +79,11 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: #209d7b;
+    background: #1e8fda;
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
+    /* border-radius: 10px; */
 }
 
 .boxOpen:after ,
@@ -131,3 +132,4 @@ body {
         height: auto;
     }
 }
+
